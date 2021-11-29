@@ -42,15 +42,15 @@ function LandingPage() {
     <HeroContainer className='mb-5'>
       <HeroContent>
         <HeroItems className=''>
-          <HeroH1>Bæredygtig mad</HeroH1>
-          <HeroP>Leveret lige til døren</HeroP>
+          <HeroH1>Sustainable Food</HeroH1>
+          <HeroP>Delivered right to your door</HeroP>
 
           <HeroBtn
             onClick={navigateToMenu}
             className='btn btn-primary hvr-icon-hang'
           >
             {" "}
-            <span className='mr-2 p-5 '> Se menuen </span>
+            <span className='mr-2 p-5 '> See Menu </span>
             <ArrowDownCircle size={40} className='hvr-icon' />
           </HeroBtn>
         </HeroItems>

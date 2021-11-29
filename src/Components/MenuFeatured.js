@@ -31,7 +31,7 @@ const MenuFeatured = () => {
           <div className="row ">
             <div className="col-12 removepadding ">
               <div className="cards ">
-                <h1 className="mt-5">Dagens retter</h1>
+                <h1 className="mt-5">Today's dishes</h1>
                 <hr className="line"></hr>
                 {localStorage.getItem("loginEmail") === "admin@gmail.com" && (
                   <UploadForm />
@@ -68,7 +68,7 @@ const MenuFeatured = () => {
               </div>
               <div className="text-center mb-5">
                 <Link to="/menu" className="btn btn-primary mb-5">
-                  Se hele menuen
+                  See the entire menu
                 </Link>
               </div>
             </div>

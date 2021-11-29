@@ -8,10 +8,10 @@ function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          Abonnér og få gode tilbud om mad i din indbakke
+          Subscribe and get great deals on food in your inbox
         </p>
         <p className="footer-subscription-text">
-          Du kan afmelde lige når du vil
+          You can unsubscribe whenever you want
         </p>
         <div className="input-areas">
           <form>
@@ -19,9 +19,9 @@ function Footer() {
               className="footer-input"
               name="email"
               type="email"
-              placeholder="Din Email"
+              placeholder="Your Email"
             />
-            <Button buttonStyle="btn--outline">Abonnér</Button>
+            <Button buttonStyle="btn--outline">Subscribe</Button>
           </form>
         </div>
       </section>
@@ -29,19 +29,19 @@ function Footer() {
       <div className="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
-            <h2>Om os</h2>
+            <h2>About</h2>
           </div>
           <div className="footer-link-items">
             <h2>
-              <Link to="/ContactUs">Kontakt os</Link>
+              <Link to="/ContactUs">Contact Us</Link>
             </h2>
-            <Link to="/ContactUs">Kontakt</Link>
+            <Link to="/ContactUs">Contact</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
-            <h2>Videoer</h2>
-            <p className="text-light">På vej..</p>
+            <h2>Videos</h2>
+            <p className="text-light">On the road..</p>
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to="/" className="social-logo">
-              SaveAMeal
+              Save A Meal
               <i className="fas fa-utensils" />
             </Link>
           </div>
