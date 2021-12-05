@@ -17,10 +17,10 @@ function CartEmpty() {
                   alt="cart Is Empty"
                 />
                 <h3>
-                  <strong>Din kurv er tom</strong>
+                  <strong>Your cart is empty</strong>
                 </h3>
                 <Link to="/">
-                  <button className="goToMenuBtn">Gå til menu {""}</button>
+                  <button className="goToMenuBtn">Go to menu {""}</button>
                 </Link>
               </div>
             </div>

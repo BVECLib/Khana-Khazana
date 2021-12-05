@@ -4,7 +4,7 @@ function SortFood() {
   return (
     <div className="text-primary text-center">
       <h5 className="mt-5">
-        Sortér <i class="fas fa-utensils"></i>
+        Sort <i class="fas fa-utensils"></i>
       </h5>
     </div>
   );

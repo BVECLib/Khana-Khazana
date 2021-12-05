@@ -41,21 +41,21 @@ const Cards = () => {
               onClick={(e) => sortFood(e.target.id)}
               id="Indisk"
             >
-              Indisk
+              Indian
             </button>
             <button
               className="btn btn-outline-primary mb-2 w-100 "
               onClick={(e) => sortFood(e.target.id)}
               id="Amerikansk"
             >
-              Amerikansk
+              American
             </button>
             <button
               className="btn btn-outline-primary mb-2 w-100 "
               onClick={(e) => sortFood(e.target.id)}
               id="Italiensk"
             >
-              Italiensk
+              Italian
             </button>
             <button
               className="btn btn-outline-primary mb-2 w-100 "
@@ -69,7 +69,7 @@ const Cards = () => {
               onClick={(e) => sortFood(e.target.id)}
               id=""
             >
-              Alle retter
+              All dishes
             </button>
           </div>
           <div className="col-10 removepadding">

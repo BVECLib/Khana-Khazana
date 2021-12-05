@@ -54,12 +54,12 @@ const FormSignup = ({ submitForm }) => {
           Sign up
         </button>
         <span className="form-input-login">
-          Har du allerede en konto?{" "}
+          Dont have an account?{" "}
           <Link className="loginlink" to="/login">
-            Log ind{" "}
+            Log in{" "}
           </Link>
         </span>
-        <span className="form-input-login">- Eller -</span>
+        <span className="form-input-login">- Or -</span>
         <GoogleLoginHandler />
       </form>
     </div>

@@ -27,14 +27,14 @@ const UploadForm = () => {
   return (
     <>
       <form className="uploadForm">
-        <h1>Upload en ret</h1>
+        <h1>Upload a dish</h1>
         <label className="uploadImage">
           <input type="file" onChange={changeHandler} />
           <span>+</span>
         </label>
         <div className="textForm">
           <div className="form-control">
-            <label htmlFor="imageText">Titel : </label>
+            <label htmlFor="imageText">Title : </label>
             <input
               type="text"
               id="imageText"
@@ -44,7 +44,7 @@ const UploadForm = () => {
             />
           </div>
           <div className="form-control">
-            <label htmlFor="desc">Beskrivelse : </label>
+            <label htmlFor="desc">Description : </label>
             <input
               type="text"
               id="desc"
@@ -54,7 +54,7 @@ const UploadForm = () => {
             />
           </div>
           <div className="form-control">
-            <label htmlFor="cat">Kategori : </label>
+            <label htmlFor="cat">Category : </label>
             <input
               type="text"
               id="cat"
@@ -64,7 +64,7 @@ const UploadForm = () => {
             />
           </div>
           <div className="form-control">
-            <label htmlFor="imageLabel">Billede label : </label>
+            <label htmlFor="imageLabel">Picture label : </label>
             <input
               type="text"
               id="imageLabel"
@@ -74,7 +74,7 @@ const UploadForm = () => {
             />
           </div>
           <div className="form-control">
-            <label htmlFor="imageLabel">Pris i DKK : </label>
+            <label htmlFor="imageLabel">Price in Rs : </label>
             <input
               type="number"
               id="price"

@@ -44,7 +44,7 @@ function CartQuickSummary() {
   return (
     <div>
       <h4 className='d-flex justify-content-between align-items-center mb-3'>
-        Din kurv
+        Your cart
       </h4>
 
       <ul className='list-group mb-3 text-center'>

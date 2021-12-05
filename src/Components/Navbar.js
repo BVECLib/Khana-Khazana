@@ -86,7 +86,7 @@ function Navbar() {
                 >
                   <i className="fas fa-user"></i>
                   <br />
-                  Log ind
+                  Log in
                 </Link>
               )}
               {localStorage.getItem("loginEmail") && (
@@ -116,7 +116,7 @@ function Navbar() {
           {!currentUser && button && (
             <Button buttonStyle="btn--outline">
               {" "}
-              <i className="fas fa-user"></i> Log ind
+              <i className="fas fa-user"></i> Log in
             </Button>
           )}
           {currentUser && button && (

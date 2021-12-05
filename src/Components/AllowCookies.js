@@ -43,8 +43,8 @@ function AllowCookies() {
                     />
                     <div className="ml-4 mr-4">
                       <span>
-                        Vi bruger cookies til at personalisere indhold og
-                        analysere sitets trafik.
+                        We use cookies to personalize content and
+                        analyze site traffic. 
                         <br />
                       </span>
                       <a className="learn-more" href="/">

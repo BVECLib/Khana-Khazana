@@ -66,12 +66,12 @@ export default function Login() {
             </button>
 
             <span className="form-input-login">
-              Mangler du en konto?{" "}
+              Dont have an account?{" "}
               <Link className="loginlink" to="/sign-up">
                 Sign up{" "}
               </Link>
             </span>
-            <span className="form-input-login">- Eller -</span>
+            <span className="form-input-login">- Or -</span>
             <br></br>
             <GoogleLoginHandler />
           </form>
